@@ -50,10 +50,6 @@ public class Main {
          *      quickSort on right sub array    { ..., pivotIndex, __, __ }
          **/
         quickSort(input, start, pivotIndex);
-//        for (int i = 0; i < input.length; i++) {
-//            System.out.print(input[i] + "  ");
-//        }
-//        System.out.print("\n");
         quickSort(input, pivotIndex + 1, end);
     }
 
